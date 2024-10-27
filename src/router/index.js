@@ -21,6 +21,7 @@ const routes = [
     path: "/contacts/add",
     name: "contact.add",
     component: () => import("@/views/ContactAdd.vue"),
+    //Thêm dữ liệu vào contact
   },
 ];
 const router = createRouter({
